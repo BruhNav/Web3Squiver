@@ -27,47 +27,6 @@ const Slider=()=>{
             <a href="#">Visit</a>
           </div>
         </div>
-        <input type="radio" name="slider" />
-        <div className="slider__content">
-          <img src="./slider/vecteezy_yellow-neon-lamp-with-illuminated-nft-sign_2317251.jpg" />
-          <div className="slider__description">
-            <h1>Slide Three</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates,
-              aspernatur accusantium, animi consectetur odio exercitationem et
-              blanditiis deserunt obcaecati earum soluta error aliquam. Ab sunt
-              pariatur quos aperiam! Iure, sequi?
-            </p>
-            <a href="#">Read more</a>
-          </div>
-        </div>
-        <input type="radio" name="slider" />
-        <div className="slider__content">
-          <img src="./slider/vecteezy_golden-ethereum-eth-included-with-all-crypto-currency-coin_7295855_310.jpg" />
-          <div className="slider__description">
-            <h1>Slide Four</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates,
-              aspernatur accusantium, animi consectetur odio exercitationem et
-              blanditiis deserunt obcaecati earum soluta error aliquam. Ab sunt
-              pariatur quos aperiam! Iure, sequi?
-            </p>
-          </div>
-        </div>
-        <input type="radio" name="slider" />
-        <div className="slider__content">
-          <img src="./slider/woman-with-smart-glasses-futuristic-technology.jpg" />
-          <div className="slider__description">
-            <h1>Slide Five</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates,
-              aspernatur accusantium, animi consectetur odio exercitationem et
-              blanditiis deserunt obcaecati earum soluta error aliquam. Ab sunt
-              pariatur quos aperiam! Iure, sequi?
-            </p>
-            <a href="#">Read More</a>
-          </div>
-        </div>
       </div>
     )
 }
