@@ -1,0 +1,46 @@
+.footer{
+    font-size: 20px;
+    width: 100%;
+    color: white;
+    margin-top: 150px;
+    height: max-content;
+    background-color: navy;
+    padding: 40px;
+}
+a{
+    padding: 8px;
+}
+.footer_social{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.footer_social span{
+    padding: 12px;
+}
+.morelinks{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.copy{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.rights{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.logosquiver{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.border-line{
+    width: 100%;
+    background-color: white;
+    height: 2px;
+    margin: 20px 0px 20px 0px;
+}

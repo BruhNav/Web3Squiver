@@ -1,0 +1,30 @@
+.cardcontainer{
+    background: #000000;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+    text-align: center;
+    border-radius: 7px 7px 7px 7px;
+}
+.headlines{
+    justify-content:center;
+    padding: 40px 10px 10px 0px;
+    
+    height: 150px;
+    font-size: 20px;
+    color:#fff;
+}
+.resourcestitle{
+    background: -webkit-linear-gradient(left,rgb(236, 28, 101), rgb(22, 53, 210));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0px 50px 10px;
+    font-size: 50px;
+}
+.cardcontainer>img{
+    height: 200px;
+}
+.resources{
+    margin-top: 200px;
+}
