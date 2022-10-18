@@ -14,16 +14,10 @@
     "react-dom": "^18.2.0",
     "react-elastic-carousel": "^0.11.5",
     "react-icons": "^4.4.0",
-<<<<<<< HEAD
     "react-scripts": "^5.0.1",
     "swiper": "^6.8.4",
     "web-vitals": "^2.1.4",
     "web3": "^1.8.0"
-=======
-    "react-scripts": "5.0.1",
-    "swiper": "^6.8.4",
-    "web-vitals": "^2.1.4"
->>>>>>> f8f25b7f7dca2870de03aa7c89de58f678e125e3
   },
   "scripts": {
     "start": "react-scripts start",
