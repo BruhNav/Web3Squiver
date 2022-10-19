@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import emailjs from 'emailjs-com';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import '../styles/contact.css'
 
 const Contact = () =>{
     const [name , setName] = useState('');
@@ -40,7 +41,7 @@ const Contact = () =>{
     };
 
     return(
-        <div className="contact-container">
+        <div id="contact" className="contact-container">
             <div className="contact-links">
                 <h3 className="emailusat title">Email us at :</h3>
                 contact@squirrelverse.io

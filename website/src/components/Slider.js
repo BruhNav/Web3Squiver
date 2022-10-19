@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import '../styles/sliderstyles.css';
 
 const Slider=()=>{
     return(
@@ -13,7 +14,7 @@ const Slider=()=>{
                 We are making Brands and Creators Metaverse ready. Brands who are investing early are getting cutting-edge benefits and are transforming their business models for the future.
             </p>
             
-            <a href="#">Contact Us</a>
+            <a href="#contact">Contact Us</a>
           </div>
         </div>
         <input type="radio" name="slider" />
@@ -24,7 +25,7 @@ const Slider=()=>{
             <p>
                 Watch Mithila Makhaan, first ever Maithili Film to win a national award by government of India.
             </p>
-            <a href="#">Visit</a>
+            <a href="https://metascreen.squirrelverse.io/">Visit</a>
           </div>
         </div>
       </div>

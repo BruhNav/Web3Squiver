@@ -1,18 +1,22 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
+ import { Swiper, SwiperSlide } from 'swiper/react';
 import NewsBox from './NewsBox';
 import SwiperCore, { Autoplay } from 'swiper';
+import '../styles/resources.css'
 
 // Import Swiper styles
 import 'swiper/swiper-bundle.min.css'
 
 export default () => {
+  var noOfSlides;
+  if(window.innerWidth<720) noOfSlides=1;
+  else noOfSlides=3; 
   SwiperCore.use([Autoplay]);
   return (
     <div className='resources'>
       <h1 className="resourcestitle">Resources</h1>
       <Swiper
         spaceBetween={40}
-        slidesPerView={3}
+        slidesPerView={noOfSlides}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         loop={true}

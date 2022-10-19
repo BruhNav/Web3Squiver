@@ -3,14 +3,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#wrapper{
+    overflow-x: hidden;
+}
+
 html, body {
   width: 100%;
   height:100%;
+  font-size: 1vw;
 }
 
 body {
     background: linear-gradient(-45deg, #040042, #001851fa, #14006b, #00193d);
-    background-size: 10000% 10000%;
+    background-size: 1000% 1000%;
     animation: gradient 15s ease infinite;
 }
 
@@ -29,19 +34,6 @@ a{
     100% {
         background-position: 0% 50%;
     }
-}
-.sliderText{
-    float: left;
-    width: 50%;
-    text-align: center;
-    font-size: 25px;
-    color: rgb(91, 153, 153);
-    margin-top: 70px;
-}
-.sliderImage{
-    float:left;
-    width: 50%;
-    text-align: center;
 }
 .title{
   background: -webkit-linear-gradient(left,rgb(236, 28, 101), rgb(22, 53, 210));
@@ -104,21 +96,8 @@ button {
     box-shadow: inset 0 -50px 0 0 #fd1e22;
     color: white;
 }
-.whoandwhat{
-    font-size: 22px;
-    width: 68%;
-    margin: 240px 10px 0px 5px;
-}
-.paragraph{
-    color: rgb(0, 147, 147);
-}
-.answer{
-    font-size: 25px;
-    color:rgb(26, 116, 128)
-}
-.girlimg{
-    width: 30%;
-    float: right;
+.howehelp{
+    font-size: 15px;
 }
 .howehelp > .title{
     width: 100%;
@@ -129,29 +108,4 @@ button {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
-.keyobjcontainer{
-    background-color: rgb(255, 233, 252);
-    min-height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    border-radius: 7px 7px 7px 7px;
-}
-.discription{
-    text-align: center;
-}
-.keyobj{
-    display: flex;
-    flex-basis: calc(33.33% - 20px);
-    float: left;
-    padding: 20px;
-    color: rgb(0, 147, 147);
-}
-.breakline{
-    border-radius: 2px 2px 2px 2px;
-    margin-right: 10px;
-    height: inherit;
-    width: .5%;
-    background: -webkit-linear-gradient(left,rgb(236, 28, 101), rgb(22, 53, 210));
 }

@@ -1,31 +1,21 @@
-.whychoose{
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 150px;
-}
-.leftpanel{
-    flex:50%;
-    margin-top: 60px;
+.gridcontainer{
+    padding: 18px;
+    padding-top: 90px;
 }
 .leftpanel>h1{
-    font-size: 46px;
+    font-size: 4vw;
     text-align: left;
 }
-.rightpanel{
-    flex:50%;
-    width: 100%;
-}
 .rightitem{
-    padding: 50px;
+    padding: 3rem;
 }
 .leftheading{
     width: 40%;
     float: left;
-    font-size: 20px;
     color: white;
 }
 .rightpara{
     width: 60%;
-    padding-left:10px ;
+    padding: left 0.5rem;
     float: right;
 }

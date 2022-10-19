@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/resources.css';
 
 const NewsBox = (props) =>{
     return(

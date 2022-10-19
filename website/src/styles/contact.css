@@ -6,6 +6,7 @@
     flex-direction: row;
     border-radius: 8px;
     margin-top: 250px ;
+    font-size: 1.5rem;
 }
 .contact-links{
     display: flex; 
@@ -40,11 +41,10 @@
 }
 .dividerline{
     border-radius: 2px 2px 2px 2px;
-    margin-top: 80px;
-    height: 390px;
+    height: inherit;
     width: 5px;
     background: -webkit-linear-gradient(left,rgb(236, 28, 101), rgb(22, 53, 210));
 }
 .emailusat{
-    margin-top: 200px;
+    margin-top: 50%;
 }

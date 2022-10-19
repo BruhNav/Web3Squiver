@@ -1,6 +1,8 @@
 import React from "react";
-import DivBox from './DivBox'
-import {FcDocument} from 'react-icons/fc'
+import DivBox from './DivBox';
+import {FcDocument,FcPhotoReel,FcMoneyTransfer,FcGlobe,FcSmartphoneTablet} from 'react-icons/fc';
+import '../styles/Itprovides.css';
+import  Grid  from "@mui/material/Grid";
 
 const ItProvides=()=>{
     return(
@@ -8,33 +10,33 @@ const ItProvides=()=>{
             <h1 className="title">
                 It provides us:
             </h1>
-            <div className="divboxcontainer">
+            <Grid container spacing={2}>
                 <DivBox
-                icon={<FcDocument/>}
+                icon={<FcDocument size={35}/>}
                 title={'Digital proof of ownership'}
                 discription={'You can instantly have proof of ownership of any asset by connecting your wallet.'}
                 />
                 <DivBox
-                icon={<FcDocument/>}
-                title={'Digital proof of ownership'}
-                discription={'You can instantly have proof of ownership of any asset by connecting your wallet.'}
+                icon={<FcPhotoReel size={35}/>}
+                title={'Digital collection'}
+                discription={'Have collectibles that can never be copied or forged.'}
                 />
                 <DivBox
-                icon={<FcDocument/>}
-                title={'Digital proof of ownership'}
-                discription={'You can instantly have proof of ownership of any asset by connecting your wallet.'}
+                icon={<FcMoneyTransfer size={35}/>}
+                title={'Transfer of value'}
+                discription={'Transfer of value/earnings becomes highly secure.'}
                 />
                 <DivBox
-                icon={<FcDocument/>}
-                title={'Digital proof of ownership'}
-                discription={'You can instantly have proof of ownership of any asset by connecting your wallet.'}
+                icon={<FcGlobe size={35}/>}
+                title={'Interoperability'}
+                discription={'A single metaverse with multiverse projects is being worked on using blockchain.'}
                 />
                 <DivBox
-                icon={<FcDocument/>}
-                title={'Digital proof of ownership'}
-                discription={'You can instantly have proof of ownership of any asset by connecting your wallet.'}
+                icon={<FcSmartphoneTablet size={35}/>}
+                title={'Accessibility'}
+                discription={'Anyone from anywhere can create a wallet on public blockchains'}
                 />
-            </div>
+            </Grid>
         </div>
     )
 }

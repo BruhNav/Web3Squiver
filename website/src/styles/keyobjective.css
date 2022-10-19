@@ -1,0 +1,22 @@
+
+.keyobjcontainer{
+    background-color: #071E22;
+    border-radius: 7px 7px 7px 7px;
+}
+.discription{
+    text-align: center;
+}
+.keyobj{
+    font-size: 1.5rem;
+    display: flex;
+    float: left;
+    padding: 2rem;
+    color: rgb(0, 147, 147);
+}
+.breakline{
+    border-radius: 2px 2px 2px 2px;
+    margin-right: 10px;
+    height: inherit;
+    width: .2rem;
+    background: -webkit-linear-gradient(left,rgb(236, 28, 101), rgb(22, 53, 210));
+}
